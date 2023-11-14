@@ -1,0 +1,71 @@
+\documentclass{main}
+
+\begin{document}
+
+\section{Model Description}
+
+TODO: add here the summary of the model 
+
+\subsection{Dataset preprocessing}
+
+\begin{itemize}
+	\item Which dataset used : ASL dataset from ??
+	\item Data only had 8 categories
+	\item Finally the data is converter in to tensor
+	\item Only 16 frames is used per video to make a tensor
+\end{itemize}
+
+\begin{verbatim}
+	Dataset
+	├── Cropped_Data
+	│   ├── accident_Cropped
+	│  	│	├── accident_Crop_XXX_XX.avi
+	│   ├── call_Cropped
+	│  	│	├── call_Crop_XXX_XX.avi
+	│   ├── doctor_Cropped
+	│  	│	├── doctor_Crop_XXX_XX.avi
+	│   ├── help_Cropped
+	│  	│	├── help_Crop_XXX_XX.avi
+	│   ├── hot_Cropped
+	│  	│	├── hot_Crop_XXX_XX.avi
+	│   ├── lose_Cropped
+	│  	│	├── lose_Crop_XXX_XX.avi
+	│   ├── pain_Cropped
+	│  	│	├── pain_Crop_XXX_XX.avi
+	│   └── thief_Cropped
+	│  	 	├── thief_Crop_XXX_XX.avi
+	├── Cropped_Frames
+	│   ├── accident_Cropped
+	│  	│	├── accident_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── call_Cropped
+	│  	│	├── call_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── doctor_Cropped
+	│  	│	├── doctor_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── help_Cropped
+	│  	│	├── help_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── hot_Cropped
+	│  	│	├── hot_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── lose_Cropped
+	│  	│	├── lose_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   ├── pain_Cropped
+	│  	│	├── pain_Crop_XXX_XX
+	│  	│	 	├── frameXX.jpg{16 frames}
+	│   └── thief_Cropped
+	│  	 	├── thief_Crop_XXX_XX
+	│  	 	 	├── frameXX.jpg{16 frames}
+	└── Raw_Data
+		├── accident_Raw.zip
+		├── call_Raw.zip
+		├── doctor_Raw.zip
+		├── help_Raw.zip
+		├── hot_Raw.zip
+		├── lose_Raw.zip
+		├── pain_Raw.zip
+		└── thief_Raw.zip
+\end{verbatim}
