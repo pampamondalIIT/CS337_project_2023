@@ -9,3 +9,12 @@ Also final aim will be to detect handsigns from a live video given to that model
 - For the medium [article](https://medium.com/howtoai/video-classification-with-cnn-rnn-and-pytorch-abe2f9ee031)
 - For sayantika [Sign language recogination](https://colab.research.google.com/drive/1Sf6zg85SdmPIYt6pZTgChLG9x3eE3Vh2)
 - collab notebook [ISL datapreprocessor](https://colab.research.google.com/drive/1HorQJKmnO7DUdAa6vLMwkDACY-coAO3j)
+
+### To make report 
+
+To genrate the report pdf, first go to `Report/` folder and run the following command 
+
+```bash
+pdflatex main.tex
+```
+
