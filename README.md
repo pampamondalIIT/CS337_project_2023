@@ -5,6 +5,9 @@ Create a modular code that can be trained on any sign language and that can have
 the dataset in correct format.
 Also final aim will be to detect handsigns from a live video given to that model.
 
+### Presentation 
+To go through the presentation open ML\_and\_Mine.pptx
+
 ### Important links
 - For the medium [article](https://medium.com/howtoai/video-classification-with-cnn-rnn-and-pytorch-abe2f9ee031)
 - For sayantika [Sign language recogination](https://colab.research.google.com/drive/1Sf6zg85SdmPIYt6pZTgChLG9x3eE3Vh2)
@@ -17,4 +20,9 @@ To genrate the report pdf, first go to `Report/` folder and run the following co
 ```bash
 pdflatex main.tex
 ```
+
+### How to run 
+
+
+### How to run for a custom video
 
